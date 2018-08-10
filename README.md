@@ -108,10 +108,6 @@ Basic operation of the CTF
 
 
 
- 
-
-
-
 
  
   
