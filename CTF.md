@@ -96,7 +96,9 @@ Basic operation of the CTF
 【音频隐写】   
 * 用Sonic Visualiser 查看图谱 layer add spectrogram/add peak frequency spectrogram
 ***
-
+【加密算法】   
+1.RSA    
+![]()
 # 【【PHP漏洞类型】】
 
 
