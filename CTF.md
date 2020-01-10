@@ -98,7 +98,22 @@ Basic operation of the CTF
 ***
 【加密算法】   
 1.RSA    
-* [RSA加密算法](https://zh.wikipedia.org/wiki/RSA%E5%8A%A0%E5%AF%86%E6%BC%94%E7%AE%97%E6%B3%95)    
+* [RSA加密算法](https://zh.wikipedia.org/wiki/RSA%E5%8A%A0%E5%AF%86%E6%BC%94%E7%AE%97%E6%B3%95)   
+常见套路：
+*给出 e p q c 
+`import gmpy2 as gp
+import binascii
+p =  gp.mpz()
+q =  gp.mpz()
+e =  gp.mpz()
+c =  gp.mpz()
+n = p*q
+phi = (p-1) * (q-1)
+d = gp.invert(e, phi)
+m = pow(c, d, n)
+print(m)`
+
+
 ---
 # 【【PHP漏洞类型】】
 
